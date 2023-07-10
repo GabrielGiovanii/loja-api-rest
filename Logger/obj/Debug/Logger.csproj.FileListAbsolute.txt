@@ -1,0 +1,6 @@
+C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Logger\bin\Debug\Logger.dll
+C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Logger\bin\Debug\Logger.pdb
+C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Logger\obj\Debug\Logger.dll
+C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Logger\obj\Debug\Logger.pdb

@@ -1,0 +1,43 @@
+Data: 21/05/2023 16:09:52
+Mensagem: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em web_api.Configurations.SQLServer.getConnectionString() na C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\web-api\Configurations\SQLServer.cs:linha 9
+   em web_api.Controllers.VeiculosController..ctor() na C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\web-api\Controllers\VeiculosController.cs:linha 14
+InnerException: 
+Tipo do erro: System.NullReferenceException
+Source: web-api
+TargetSite: System.String getConnectionString()
+
+--------------------------
+
+Data: 21/05/2023 16:10:09
+Mensagem: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em web_api.Controllers.VeiculosController.Get() na C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\web-api\Controllers\VeiculosController.cs:linha 27
+InnerException: 
+Tipo do erro: System.NullReferenceException
+Source: web-api
+TargetSite: System.Web.Http.IHttpActionResult Get()
+
+--------------------------
+
+Data: 21/05/2023 16:12:27
+Mensagem: Sintaxe incorreta próxima à palavra-chave 'FROM'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   em System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Repositories.Database.SQLServer.ADO.Veiculo.get() na C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\Repositories\Database\SQLServer\ADO\Veiculo.cs:linha 36
+   em web_api.Controllers.VeiculosController.Get() na C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\web-api\Controllers\VeiculosController.cs:linha 27
+InnerException: 
+Tipo do erro: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+--------------------------
+

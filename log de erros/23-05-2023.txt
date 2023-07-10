@@ -1,0 +1,10 @@
+Date: 23/05/2023 00:45:47
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em web_api.Controllers.VeiculosController.Post(Veiculo veiculo) na C:\Users\Gabriel\Documents\Curso Moura\avaliação\24-05-2023\Loja\web-api\Controllers\VeiculosController.cs:linha 58
+InnerException: 
+Type of error: System.NullReferenceException
+Source: web-api
+TargetSite: System.Web.Http.IHttpActionResult Post(Models.Veiculo)
+
+--------------------------
+
