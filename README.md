@@ -9,11 +9,11 @@ O objetivo é desenvolver uma API em C# que permita a criação, leitura, atuali
 * [Front End](https://github.com/GabrielGiovanii/loja-client-angular)
 
 ## Tecnologias Utilizadas
-* C#
-* .Net Framework
-* ASP.NET MVC
-* SQL Server
-* Postman
+* [C#](https://learn.microsoft.com/en-us/dotnet/csharp)
+* [.Net Framework](https://learn.microsoft.com/en-us/dotnet/framework)
+* [ASP.NET MVC](https://learn.microsoft.com/pt-br/aspnet/mvc)
+* [SQL Server](https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16)
+* [Postman](https://learning.postman.com/docs/publishing-your-api/documenting-your-api)
   
 ## Práticas Adotadas
 * Criação de Controladores: Desenvolvimento de controladores para manipular os diferentes métodos HTTP (GET, POST, PUT, DELETE) relacionados aos veículos.
