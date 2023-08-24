@@ -30,7 +30,10 @@ O objetivo é desenvolver uma API em C# que permita a criação, leitura, atuali
 ```
 git clone https://github.com/GabrielGiovanii/loja-api-rest.git
 ```
-- Execute o projeto
+Execute o projeto, porta local:
+```
+localhost:44369
+```
   
 ## API Endpoints
 
